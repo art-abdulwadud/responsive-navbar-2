@@ -62,6 +62,7 @@ hr:nth-child(1){
 	font-family: 'Play', sans-serif;
 	font-size: calc(60% + 6px);
 	color: black;
+	transition: 0.5s;
 }
 .login-link:hover{
 	color: white;
@@ -72,7 +73,31 @@ hr:nth-child(3){
 	width: 70%;
 }
 /* Nav list */
-
+.navlist{
+	text-align: center;
+	list-style: none;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.navitem{
+	display: inline-block;
+	padding-right: 5px;
+}
+.navlink{
+	font-family: 'Play', sans-serif;
+	font-size: calc(60% + 10px);
+	color: black;
+	font-weight: 600;
+	transition: 0.5s;
+}
+.navlink:hover{
+	color: white;
+	text-decoration: none;
+}
+hr:nth-child(5){
+	text-align: center;
+	width: 70%;
+}
 /* icon-list */
 .icon-img{
 	height: 5vh;
