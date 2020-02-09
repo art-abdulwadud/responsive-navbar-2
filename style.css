@@ -41,11 +41,11 @@ header{
 }
 /* Login list */
 hr{
-	background: #0f9b0f;
+	text-align: center;
+	background: black;
 	padding: 0;
 }
 hr:nth-child(1){
-	text-align: center;
 	width: 60%;
 	margin-top: 1%;
 }
@@ -69,7 +69,6 @@ hr:nth-child(1){
 	text-decoration: none;
 }
 hr:nth-child(3){
-	text-align: center;
 	width: 70%;
 }
 /* Nav list */
@@ -95,12 +94,27 @@ hr:nth-child(3){
 	text-decoration: none;
 }
 hr:nth-child(5){
-	text-align: center;
 	width: 70%;
 }
 /* icon-list */
+.icon-list{
+	text-align: center;
+	list-style: none;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.icon-item{
+	display: inline-block;
+}
+.icon-link{
+	padding-right: 20px;
+}
 .icon-img{
 	height: 5vh;
+}
+.icon-img:hover{
+	border-radius: 5px;
+	padding: 3px;
 }
 /* header text section */
 .text-wrapper{
